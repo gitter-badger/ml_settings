@@ -8,6 +8,96 @@
         <option name="SKIP_IMPORT_STATEMENTS" value="false" />
       </component>
       <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+      <component name="InspectionProjectProfileManager">
+        <profiles>
+          <profile version="1.0" is_locked="false">
+            <option name="myName" value="Project Default" />
+            <option name="myLocal" value="false" />
+            <inspection_tool class="ChainedEqualityJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="CommaExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="ConditionalExpressionWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="ConfusingPlusesOrMinusesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="CyclomaticComplexityJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_limit" value="10" />
+            </inspection_tool>
+            <inspection_tool class="DebuggerStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="DivideByZeroJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="DuplicateConditionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="EmptyCatchBlockJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="EmptyTryBlockJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_ignoreLoopsWithoutConditions" value="false" />
+            </inspection_tool>
+            <inspection_tool class="FunctionWithMultipleReturnPointsJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="IfStatementWithTooManyBranchesJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_limit" value="3" />
+            </inspection_tool>
+            <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="InnerHTMLJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="JSDeclarationsAtScopeStart" enabled="true" level="INFO" enabled_by_default="true">
+              <option name="myMakeSingleVarStatement" value="true" />
+            </inspection_tool>
+            <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
+            <inspection_tool class="JSUndeclaredVariable" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+              <option name="myCheckGlobalDefinitions" value="true" />
+            </inspection_tool>
+            <inspection_tool class="LabeledStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="OverlyComplexArithmeticExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_limit" value="6" />
+            </inspection_tool>
+            <inspection_tool class="OverlyComplexBooleanExpressionJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_limit" value="3" />
+            </inspection_tool>
+            <inspection_tool class="ParametersPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_limit" value="5" />
+            </inspection_tool>
+            <inspection_tool class="PlatformDetectionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="ReplaceAssignmentWithOperatorAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="SassScssResolvedByNameOnly" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+            <inspection_tool class="SassUnresolvedFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="SassUnresolvedImport" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="SassUnresolvedMixin" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="SassUnresolvedPlaceholderSelector" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="SassUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="SwitchStatementWithNoDefaultBranchJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="TailRecursionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="ThisExpressionReferencesGlobalObjectJS" enabled="false" level="WARNING" enabled_by_default="false" />
+            <inspection_tool class="ThreeNegationsPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+            <inspection_tool class="UnusedCatchParameterJS" enabled="true" level="WARNING" enabled_by_default="true">
+              <option name="m_ignoreCatchBlocksWithComments" value="false" />
+            </inspection_tool>
+            <inspection_tool class="VoidExpressionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+          </profile>
+        </profiles>
+        <option name="PROJECT_PROFILE" />
+        <option name="USE_PROJECT_PROFILE" value="false" />
+        <version value="1.0" />
+      </component>
+      <component name="JsBowerSettings">
+        <exe-path>$USER_HOME$/.nvm/v0.10.32/bin/bower</exe-path>
+        <config-path />
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="alexand" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>CoffeeScript</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
       <component name="ProjectLevelVcsManager" settingsEditedManually="false">
         <OptionsSetting value="true" id="Add" />
         <OptionsSetting value="true" id="Remove" />
@@ -23,12 +113,19 @@
       </component>
       <component name="ProjectRootManager" version="2" />
       <component name="PropertiesComponent">
-        <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+        <property name="options.lastSelected" value="preferences.lookFeel" />
         <property name="options.splitter.main.proportions" value="0.3" />
         <property name="options.splitter.details.proportions" value="0.2" />
+        <property name="JavaScriptLanguageLevel" value="ES5" />
+        <property name="JavaScriptPreferStrict" value="false" />
+        <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+        <property name="HbShouldOpenHtmlAsHb" value="" />
       </component>
       <component name="RunManager">
         <list size="0" />
+      </component>
+      <component name="SvnConfiguration">
+        <configuration>$USER_HOME$/.subversion</configuration>
       </component>
       <component name="VcsContentAnnotationSettings">
         <option name="myLimit" value="2678400000" />

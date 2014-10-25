@@ -1,0 +1,62 @@
+<shared-scheme name="[shared] Mac OS X copy" original-scheme-path="$ROOT_CONFIG$/keymaps/Mac OS X copy.xml">
+  <scheme-local-copy>
+    <keymap version="1" name="[shared] Mac OS X copy" parent="Mac OS X">
+      <action id="ActivatePreviewToolWindow">
+        <keyboard-shortcut first-keystroke="shift ENTER" />
+      </action>
+      <action id="ActivateTaskBrowserToolWindow">
+        <keyboard-shortcut first-keystroke="meta alt 1" />
+      </action>
+      <action id="CodeHistoryMiningPopup">
+        <keyboard-shortcut first-keystroke="shift alt H" />
+      </action>
+      <action id="CollapseAllRegions">
+        <keyboard-shortcut first-keystroke="shift meta SUBTRACT" />
+      </action>
+      <action id="CollapseDocComments">
+        <keyboard-shortcut first-keystroke="shift meta MINUS" />
+      </action>
+      <action id="EditorStartNewLine" />
+      <action id="EditorToggleShowLineNumbers">
+        <keyboard-shortcut first-keystroke="shift meta alt L" />
+      </action>
+      <action id="ExpandAllRegions">
+        <keyboard-shortcut first-keystroke="shift meta ADD" />
+      </action>
+      <action id="ExpandDocComments">
+        <keyboard-shortcut first-keystroke="shift meta EQUALS" />
+      </action>
+      <action id="Graph.Current.Node.Dependencies.Filter">
+        <keyboard-shortcut first-keystroke="shift control N" />
+      </action>
+      <action id="MoveEditorToOppositeTabGroup">
+        <keyboard-shortcut first-keystroke="shift BACK_QUOTE" />
+        <keyboard-shortcut first-keystroke="shift control BACK_QUOTE" />
+      </action>
+      <action id="OpenEditorInOppositeTabGroup">
+        <keyboard-shortcut first-keystroke="shift meta BACK_QUOTE" />
+      </action>
+      <action id="SplitVertically">
+        <keyboard-shortcut first-keystroke="meta BACK_QUOTE" />
+      </action>
+      <action id="SwitchApply">
+        <keyboard-shortcut first-keystroke="control alt ENTER" />
+      </action>
+      <action id="SwitchDown">
+        <keyboard-shortcut first-keystroke="control alt DOWN" />
+      </action>
+      <action id="SwitchLeft">
+        <keyboard-shortcut first-keystroke="control alt LEFT" />
+      </action>
+      <action id="SwitchRight">
+        <keyboard-shortcut first-keystroke="control alt RIGHT" />
+      </action>
+      <action id="SwitchUp">
+        <keyboard-shortcut first-keystroke="control alt UP" />
+      </action>
+      <action id="siosio.LeftTab">
+        <keyboard-shortcut first-keystroke="shift alt ENTER" />
+      </action>
+    </keymap>
+  </scheme-local-copy>
+</shared-scheme>
