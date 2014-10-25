@@ -1,0 +1,13 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="log.debug.categories" value="" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="1" />
+    <property name="WebStorm.multiCaretsEnabled" value="true" />
+    <property name="WebStorm.inlineDebuggerEnabled" value="true" />
+    <property name="WebStorm.lineNumbersEnabled" value="true" />
+    <property name="machine_id" value="16yxyedmb4u4ksc23z6urn480" />
+    <property name="machine_name" value="Marvin Anthony" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+  </component>
+</application>
