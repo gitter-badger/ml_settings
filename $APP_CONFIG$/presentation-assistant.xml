@@ -1,5 +1,6 @@
 <application>
   <component name="PresentationAssistant">
+    <option name="fontSize" value="11" />
     <option name="mainKeymap">
       <KeymapDescription>
         <option name="name" value="[shared] Mac OS X copy" />
