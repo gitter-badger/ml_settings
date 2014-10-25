@@ -26,7 +26,6 @@
   <inspection_tool class="JSDeclarationsAtScopeStart" enabled="true" level="INFO" enabled_by_default="true">
     <option name="myMakeSingleVarStatement" value="true" />
   </inspection_tool>
-  <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSUndeclaredVariable" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="myCheckGlobalDefinitions" value="true" />
   </inspection_tool>
