@@ -8,9 +8,11 @@
     <browser id="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" name="Internet Explorer" family="EXPLORER" />
     <browser id="bfee1b69-a97d-4338-8ba4-25170adcbaa6" name="Dartium" family="CHROME" path="/usr/local/bin/dartium">
       <settings>
+        <command-line-options>--verbose</command-line-options>
         <environment-variables>
           <entry key="DART_FLAGS" value="--checked" />
         </environment-variables>
+        <user-data-dir>$APPLICATION_CONFIG_DIR$/chrome-user-data</user-data-dir>
       </settings>
     </browser>
   </component>
