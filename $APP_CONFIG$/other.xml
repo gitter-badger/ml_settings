@@ -78,15 +78,15 @@
     <option name="SHOW_PATH" value="true" />
   </component>
   <component name="ExternalResourceManagerImpl">
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="RecentDirectoryProjectsManager">
@@ -96,7 +96,78 @@
         <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/mobillogix/client" />
+      </list>
+    </option>
     <option name="lastPath" value="$USER_HOME$/Projects/mobillogix/client" />
+  </component>
+  <component name="RecentTaskRepositories">
+    <Generic shared="false" url="http://www.assembla.com">
+      <commitMessageFormat>RE #{id} {summary}</commitMessageFormat>
+      <option name="downloadTasksInSeparateRequests" value="true" />
+      <password>dfebdfc7dfc3dfcddfc5dfd0dfd0df92df9d</password>
+      <option name="loginAnonymously" value="false" />
+      <option name="loginMethodType" value="GET" />
+      <option name="loginUrl" value="" />
+      <option name="responseHandlers">
+        <XPathResponseHandler>
+          <selectors>
+            <selector name="tasks" path="/tickets/ticket" />
+            <selector name="id" path="number" />
+            <selector name="summary" path="summary" />
+            <selector name="description" path="description" />
+            <selector name="updated" path="updated-at" />
+            <selector name="created" path="created-on" />
+            <selector name="closed" path="" />
+            <selector name="issueUrl" path="" />
+            <selector name="singleTask-id" path="" />
+            <selector name="singleTask-summary" path="" />
+            <selector name="singleTask-description" path="" />
+            <selector name="singleTask-updated" path="" />
+            <selector name="singleTask-created" path="" />
+            <selector name="singleTask-closed" path="" />
+            <selector name="singleTask-issueUrl" path="" />
+          </selectors>
+        </XPathResponseHandler>
+        <JsonResponseHandler>
+          <selectors>
+            <selector name="tasks" path="" />
+            <selector name="id" path="" />
+            <selector name="summary" path="" />
+            <selector name="description" path="" />
+            <selector name="updated" path="" />
+            <selector name="created" path="" />
+            <selector name="closed" path="" />
+            <selector name="issueUrl" path="" />
+            <selector name="singleTask-id" path="" />
+            <selector name="singleTask-summary" path="" />
+            <selector name="singleTask-description" path="" />
+            <selector name="singleTask-updated" path="" />
+            <selector name="singleTask-created" path="" />
+            <selector name="singleTask-closed" path="" />
+            <selector name="singleTask-issueUrl" path="" />
+          </selectors>
+        </JsonResponseHandler>
+        <RegExResponseHandler>
+          <option name="taskRegex" value="" />
+        </RegExResponseHandler>
+      </option>
+      <option name="responseType" value="XML" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="singleTaskMethodType" value="GET" />
+      <option name="singleTaskUrl" value="" />
+      <option name="subtypeName" value="Assembla [G]" />
+      <option name="tasksListMethodType" value="GET" />
+      <option name="tasksListUrl" value="http://www.assembla.com/tickets.xml" />
+      <option name="templateVariables">
+        <list />
+      </option>
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>alexandr_cherednichenko</username>
+    </Generic>
   </component>
   <component name="Registry">
     <entry key="ide.tooltip.initialDelay" value="819" />
