@@ -1,4 +1,4 @@
-<scheme name="dartcorrects 2" version="124" parent_scheme="Default">
+<scheme name="2014.10" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <console-font>
@@ -392,9 +392,29 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="DART_CLASS">
+      <value>
+        <option name="FOREGROUND" value="97bb19" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DART_CONSTRUCTOR_CALL">
+      <value>
+        <option name="FOREGROUND" value="b7dd01" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DART_CONSTRUCTOR_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="b4da01" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="DART_METADATA">
       <value>
-        <option name="FOREGROUND" value="c8c22c" />
+        <option name="FOREGROUND" value="c1bb2a" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -429,8 +449,7 @@
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="c7e735" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="a9d11c" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -476,14 +495,12 @@
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="b3c1fd" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="8faefd" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -589,7 +606,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="8faefd" />
+        <option name="FOREGROUND" value="f9e8d5" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1236,7 +1253,7 @@
     </option>
     <option name="JS.STATIC_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="f8e7d4" />
+        <option name="FOREGROUND" value="f9e8d5" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
