@@ -30,6 +30,7 @@
         <keyboard-shortcut first-keystroke="shift control N" />
       </action>
       <action id="MoveEditorToOppositeTabGroup">
+        <keyboard-shortcut first-keystroke="shift BACK_QUOTE" />
         <keyboard-shortcut first-keystroke="shift control BACK_QUOTE" />
       </action>
       <action id="OpenEditorInOppositeTabGroup">
