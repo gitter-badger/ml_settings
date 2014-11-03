@@ -78,22 +78,22 @@
     <option name="SHOW_PATH" value="true" />
   </component>
   <component name="ExternalResourceManagerImpl">
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
         <option value="$USER_HOME$/Projects/mobillogix/client" />
+        <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
       </list>
     </option>
     <option name="openPaths">
@@ -101,7 +101,7 @@
         <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Projects/dart/apps/server/timekill" />
+    <option name="lastPath" value="$USER_HOME$/Projects/mobillogix/client" />
   </component>
   <component name="RecentTaskRepositories">
     <Generic shared="false" url="http://www.assembla.com">
