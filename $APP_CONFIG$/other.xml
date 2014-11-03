@@ -92,16 +92,11 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Projects/mobillogix/client" />
         <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
-      </list>
-    </option>
-    <option name="openPaths">
-      <list>
         <option value="$USER_HOME$/Projects/mobillogix/client" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Projects/mobillogix/client" />
+    <option name="lastPath" value="$USER_HOME$/Projects/dart/apps/server/timekill" />
   </component>
   <component name="RecentTaskRepositories">
     <Generic shared="false" url="http://www.assembla.com">
