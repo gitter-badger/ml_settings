@@ -2563,4 +2563,17 @@
   <template name="wfsm:n" value="-webkit-font-smoothing:none;" description="-webkit-font-smoothing: none;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
+  <template name="d:f" value="display:flex;" description="display:flex;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="bfv" value="backface-visibility: $VAR0$;" description="backface-visibility:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bfv:h" value="backface-visibility:hidden;" description="backface-visibility:hidden;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="bfv:v" value="backface-visibility:visible;" description="backface-visibility:visible;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>

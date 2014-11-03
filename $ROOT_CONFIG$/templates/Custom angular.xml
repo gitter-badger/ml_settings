@@ -66,7 +66,7 @@
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="ngm" value="angular.module('$moduleName$')$END$" description="A new angular module without a config function." toReformat="true" toShortenFQNames="true">
+  <template name="ngm." value="angular.module('$moduleName$')$END$" description="A new angular module without a config function." toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -78,6 +78,8 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
