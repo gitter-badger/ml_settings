@@ -102,8 +102,8 @@
     <option name="SHOW_PATH" value="true" />
   </component>
   <component name="DBNavigator.Application.Settings">
-    <enable-debug-mode value="true" />
-    <enable-developer-mode value="true" />
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
     <show-plugin-conflict-dialog value="false" />
   </component>
   <component name="ExternalResourceManagerImpl">
