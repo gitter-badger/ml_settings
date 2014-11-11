@@ -130,7 +130,7 @@
   <component name="RecentTaskRepositories">
     <Generic shared="false" url="http://www.assembla.com">
       <commitMessageFormat>RE #{id} {summary}</commitMessageFormat>
-      <option name="downloadTasksInSeparateRequests" value="true" />
+      <option name="downloadTasksInSeparateRequests" value="false" />
       <password>dfebdfc7dfc3dfcddfc5dfd0dfd0df92df9d</password>
       <option name="loginAnonymously" value="false" />
       <option name="loginMethodType" value="GET" />
