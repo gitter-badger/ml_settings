@@ -14,7 +14,8 @@
       <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="tpl" type="HTML" />
+      <mapping ext="php" type="PHP files" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="12" />
+    <setting name="fileTypeChangedCounter" value="13" />
   </component>
 </application>
