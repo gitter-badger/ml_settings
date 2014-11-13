@@ -18,6 +18,11 @@
       </profile-state>
     </entry>
   </component>
+  <component name="BaseRefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+  </component>
   <component name="BuiltInServerOptions" builtInServerAvailableExternally="true" />
   <component name="CodeStyleSettingsManager">
     <option name="PER_PROJECT_SETTINGS">
@@ -123,6 +128,11 @@
       <list>
         <option value="$USER_HOME$/Projects/mobillogix/client" />
         <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Projects/mobillogix/client" />
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/Projects/mobillogix/client" />
