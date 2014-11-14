@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project 'ngseed.dev'" />
     <option name="defaultScopeName" value="Project 'ngseed.dev'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'ngseed.dev'" />
   </component>
 </application>
