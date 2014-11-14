@@ -111,6 +111,14 @@
     <enable-developer-mode value="false" />
     <show-plugin-conflict-dialog value="false" />
   </component>
+  <component name="DuplocatorSettings">
+    <option name="SELECTED_PROFILES">
+      <set>
+        <option value="JavaScript" />
+      </set>
+    </option>
+    <option name="LAST_SELECTED_LANGUAGE" value="JavaScript" />
+  </component>
   <component name="ExternalResourceManagerImpl">
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
@@ -246,9 +254,10 @@
     <recent_templates>
       <option name="RECENT_TEMPLATES">
         <value>
-          <list size="2">
+          <list size="3">
             <item index="0" class="java.lang.String" itemvalue="stylus" />
             <item index="1" class="java.lang.String" itemvalue="SQL Script" />
+            <item index="2" class="java.lang.String" itemvalue="tmpl" />
           </list>
         </value>
       </option>
