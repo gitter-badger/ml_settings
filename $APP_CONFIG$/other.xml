@@ -208,6 +208,9 @@
     <entry key="ide.firstStartup" value="false" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
   </component>
+  <component name="TaskSettings">
+    <option name="ALWAYS_DISPLAY_COMBO" value="true" />
+  </component>
   <component name="TemplateSettings">
     <defaultShortcut shortcut="TAB" />
   </component>
