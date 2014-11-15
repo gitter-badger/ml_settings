@@ -24,6 +24,9 @@
     <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
   </component>
   <component name="BuiltInServerOptions" builtInServerAvailableExternally="true" />
+  <component name="CertificateManager">
+    <option name="ACCEPT_AUTOMATICALLY" value="true" />
+  </component>
   <component name="CodeStyleSettingsManager">
     <option name="PER_PROJECT_SETTINGS">
       <value>
@@ -94,7 +97,7 @@
         <option name="PATH_TO_PPK" value="" />
       </value>
     </option>
-    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="PATH_TO_PASSWORD_FILE" value="$USER_HOME$/.cvspass" />
     <option name="TIMEOUT" value="10" />
     <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
     <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
@@ -102,8 +105,8 @@
     <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
     <option name="ENCODING" value="Default" />
     <option name="USE_GZIP" value="false" />
-    <option name="DO_OUTPUT" value="false" />
-    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="DO_OUTPUT" value="true" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="true" />
     <option name="SHOW_PATH" value="true" />
   </component>
   <component name="DBNavigator.Application.Settings">
@@ -147,7 +150,7 @@
   </component>
   <component name="RecentTaskRepositories">
     <Generic shared="false" url="http://www.assembla.com">
-      <commitMessageFormat>RE #{id} {summary}</commitMessageFormat>
+      <commitMessageFormat>Q&amp;A #{id}-{project}.{summary}</commitMessageFormat>
       <option name="downloadTasksInSeparateRequests" value="false" />
       <password>dfebdfc7dfc3dfcddfc5dfd0dfd0df92df9d</password>
       <option name="loginAnonymously" value="false" />
@@ -263,4 +266,5 @@
       </option>
     </recent_templates>
   </component>
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Trim space" HIGHLIGHT_MODE="BY_WORD" />
 </application>
