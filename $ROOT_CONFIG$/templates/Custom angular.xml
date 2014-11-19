@@ -1,0 +1,105 @@
+<templateSet group="Custom angular">
+  <template name=".ndd" value=".directive('$NAME$', [&#10;    &#10;    $NAME$&#10;  ]);&#10;&#10;&#10;  function $NAME$() {&#10;&#10;    // LINK FUNC&#10;    //////////////////////////////////////////////////&#10;    function link(scope, element, attrs) {&#10;&#10;    }&#10;&#10;    // DDO&#10;    //////////////////////////////////////////////////&#10;    return {&#10;      templateUrl: '',&#10;      replace: true,&#10;      link: link$END$&#10;    };&#10;  }&#10;" description="angular directive declaration" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="underscoresToCamelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="isdf" value="angular.isDefined($VAL$)" description="angular.isDefined()" toReformat="true" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=".cf" value="controller('$controllerName$', [&#10;&#9;&#10;&#9;$controllerName$&#10;]);&#10;&#10;function $controllerName$() {&#10;    $END$&#10;} " description="angular controller" toReformat="true" toShortenFQNames="true">
+    <variable name="controllerName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngprd" value="angular.module('$MODULE$').provider('$PROVIDERNAME$', [&#10;&#10;&#9;$PROVIDERNAME$Provider&#10;]);&#10;&#10;&#10;&#10;function $PROVIDERNAME$Provider() {&#10;&#10;&#9;var provider = this;&#10;&#10;&#9;/* ********************************************************** */&#10;&#10;&#9;// PROVIDER PRIVATE MEMBERS&#10;&#9;// ----------------------------------------&#10;&#10;&#10;&#9;/* ********************************************************** */&#10;&#10;&#9;// CLASS&#10;&#9;// ----------------------------------------&#10;&#10;&#9;/**&#10;&#9; * $END$&#10;&#9; *&#10;&#9; * @class $PROVIDEDCLASSNAME$&#10;&#9; * @constructor&#10;&#9; */&#10;&#9;function $PROVIDEDCLASSNAME$() {&#10;&#10;&#9;}&#10;&#10;&#9;$PROVIDEDCLASSNAME$.prototype._init = function () {&#10;&#10;&#9;};&#10;&#10;&#9;/* ********************************************************** */&#10;&#10;&#10;&#9;// SERVICE FACTORY&#10;&#9;// ----------------------------------------&#10;&#10;&#9;/**&#10;&#9; * @function&#10;&#9; * @returns {$PROVIDEDCLASSNAME$}&#10;&#9; */&#10;&#9;function factory() {&#10;&#9;&#9;return new $PROVIDEDCLASSNAME$();&#10;&#9;}&#10;&#10;&#10;&#9;// PROVIDER PUBLIC METHODS&#10;&#9;// ----------------------------------------&#10;&#10;&#10;&#10;&#9;provider.$get = [factory];&#10;&#9;/* ********************************************************** */&#10;}&#10;" description="full angular provider declaration" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROVIDERNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROVIDEDCLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=".mcfg" value=".config(['$INJECT$', configFn]);&#10;&#10;function configFn($INJECT$) {&#10;&#9;$END$&#10;&#9;&#10;}&#10;" description="angular module config" toReformat="true" toShortenFQNames="true">
+    <variable name="INJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rsch" value="config(['schemaProvider', configFn]);&#10;&#10;function configFn(schemaProvider) {&#10;&#9;/**&#10;&#9; * @typedef {object} $NAME$&#10;&#9; */&#10;&#9;var $NAME$ = {&#10;&#9;&#9;$END$&#10;&#9;};&#10;&#10;&#9;schemaProvider.registerSchema('$NAME$', $NAME$);&#10;}&#10;" description="angular module config with schema register" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=".ecm" value=".config(['schemaProvider', configFn]);&#10;&#10;function configFn(schemaProvider) {&#10;&#9;/**&#10;&#9; * @extends {$EXTEND$}&#10;&#9; * @typedef {object} $NAME$&#10;&#9; */&#10;&#9;var $NAME$ = {&#10;&#9;&#9;$END$&#10;&#9;};&#10;&#10;&#9;schemaProvider.extendSchema('$NAME$', '$EXTEND$', $NAME$);&#10;}&#10;" description="angular module config with schema register" toReformat="true" toShortenFQNames="true">
+    <variable name="EXTEND" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngrit" value="$ITEM$ in $COLLECTION$ track by $index" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLLECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ngtrb" value="track by $KEY$" description="track by" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="ngm." value="angular.module('$moduleName$')$END$" description="A new angular module without a config function." toReformat="true" toShortenFQNames="true">
+    <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ngmd" value="&#10;&#9;/**&#10;&#9; * @name $MODULE_NAME$&#10;&#9; */&#10;&#9;angular.module('$MODULE_NAME$', [ $END$ ]);" description="A new angular module declaration" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
