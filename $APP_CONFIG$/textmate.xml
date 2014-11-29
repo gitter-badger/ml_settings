@@ -1,0 +1,43 @@
+<application>
+  <component name="TextMateSettings">
+    <option name="themesMapping">
+      <map>
+        <entry key="2014.10" value="Mac Classic" />
+        <entry key="AllHallowsEve" value="Mac Classic" />
+        <entry key="Blackboard" value="Mac Classic" />
+        <entry key="Cobalt" value="Mac Classic" />
+        <entry key="Darcula" value="Mac Classic" />
+        <entry key="Default" value="Mac Classic" />
+        <entry key="Monokai" value="Mac Classic" />
+        <entry key="Railscasts" value="Mac Classic" />
+        <entry key="Solarized Dark" value="Mac Classic" />
+        <entry key="Twilight" value="Mac Classic" />
+        <entry key="VibrantInk" value="Mac Classic" />
+        <entry key="WarmNeon" value="Mac Classic" />
+        <entry key="[shared] nature2" value="Mac Classic" />
+        <entry key="_COX" value="Mac Classic" />
+        <entry key="_PHP" value="Mac Classic" />
+        <entry key="_PHP2" value="Mac Classic" />
+        <entry key="dartcorrects" value="Mac Classic" />
+        <entry key="dartcorrects 2" value="Mac Classic" />
+        <entry key="dartcorrects 2 copy" value="Mac Classic" />
+        <entry key="dartcorrects 2 copy copy" value="Darcula" />
+        <entry key="dartcorrects 2 copy copy copy" value="Mac Classic" />
+        <entry key="may" value="Mac Classic" />
+        <entry key="may2" value="Mac Classic" />
+        <entry key="may3" value="Mac Classic" />
+        <entry key="may4" value="Mac Classic" />
+        <entry key="myDark3" value="Mac Classic" />
+        <entry key="myDark4" value="Mac Classic" />
+        <entry key="myRail" value="Mac Classic" />
+        <entry key="my_def_all_cols" value="Mac Classic" />
+        <entry key="my_def_cols" value="Mac Classic" />
+        <entry key="mydarcula" value="Mac Classic" />
+        <entry key="nature2" value="Mac Classic" />
+        <entry key="newDark" value="Mac Classic" />
+        <entry key="statics edit" value="Mac Classic" />
+        <entry key="testf" value="Mac Classic" />
+      </map>
+    </option>
+  </component>
+</application>
