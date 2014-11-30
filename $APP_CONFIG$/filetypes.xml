@@ -2,10 +2,11 @@
   <component name="FileTypeManager" version="11">
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
     <extensionMap>
+      <mapping pattern=".zshrc" type="Bash" />
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="tpl" type="HTML" />
       <mapping ext="php" type="PHP files" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="13" />
+    <setting name="fileTypeChangedCounter" value="14" />
   </component>
 </application>
