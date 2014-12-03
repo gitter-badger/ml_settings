@@ -5,7 +5,6 @@
       <mapping pattern=".zshrc" type="Bash" />
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="tpl" type="HTML" />
-      <mapping ext="php" type="PHP files" />
     </extensionMap>
     <setting name="fileTypeChangedCounter" value="14" />
   </component>
