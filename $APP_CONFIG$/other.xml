@@ -231,10 +231,10 @@
       <option name="RECENT_TEMPLATES">
         <value>
           <list size="4">
-            <item index="0" class="java.lang.String" itemvalue="SQL Script" />
-            <item index="1" class="java.lang.String" itemvalue="stylus" />
-            <item index="2" class="java.lang.String" itemvalue="tmpl" />
-            <item index="3" class="java.lang.String" itemvalue="json" />
+            <item index="0" class="java.lang.String" itemvalue="stylus" />
+            <item index="1" class="java.lang.String" itemvalue="tmpl" />
+            <item index="2" class="java.lang.String" itemvalue="json" />
+            <item index="3" class="java.lang.String" itemvalue="SQL Script" />
           </list>
         </value>
       </option>
