@@ -19,8 +19,6 @@
     </entry>
   </component>
   <component name="BaseRefactoringSettings">
-    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
-    <option name="RENAME_SEARCH_FOR_TEXT_FOR_FILE" value="false" />
     <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
   </component>
   <component name="BuiltInServerOptions" builtInServerAvailableExternally="true" />
@@ -89,6 +87,9 @@
     <enable-debug-mode value="false" />
     <enable-developer-mode value="false" />
     <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="DependencyUISettings">
+    <option name="UI_SHOW_FILES" value="false" />
   </component>
   <component name="DuplocatorSettings">
     <option name="SELECTED_PROFILES">
