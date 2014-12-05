@@ -99,16 +99,24 @@
     <option name="LAST_SELECTED_LANGUAGE" value="JavaScript" />
   </component>
   <component name="ExternalResourceManagerImpl">
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+  <component name="NativeNeighbourhoodPlugin">
+    <iconsDir value="macosx" />
+    <executeWithDefaultAppCommand value="/usr/bin/open|$FilePath$" tokenizerDelims="|" />
+    <showInFileManagerCommand value="/bin/sh|$PluginsHome$/NativeNeighbourhood/classes/org/intellij/plugins/nativeNeighbourhood/icons/macosx/reveal.sh|$FilePath$" tokenizerDelims="|" />
+    <openCommandShellInCommand value="/bin/sh|$PluginsHome$/NativeNeighbourhood/classes/org/intellij/plugins/nativeNeighbourhood/icons/macosx/terminal.sh|$FileDir$" tokenizerDelims="|" />
+    <selectInFileManagerName value="MacOSX Finder" />
+    <nativeExtensions value="" />
   </component>
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
