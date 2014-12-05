@@ -120,14 +120,10 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/Projects/mobillogix/client" />
+        <option value="$USER_HOME$/WebstormProjects/express_tepm" />
         <option value="$USER_HOME$/WebstormProjects/ac_sl" />
         <option value="$USER_HOME$/Projects/s_loop/ac_sl" />
         <option value="$USER_HOME$/Projects/dart/apps/server/timekill" />
-      </list>
-    </option>
-    <option name="openPaths">
-      <list>
-        <option value="$USER_HOME$/Projects/mobillogix/client" />
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/Projects/mobillogix/client" />
@@ -244,8 +240,8 @@
           <list size="4">
             <item index="0" class="java.lang.String" itemvalue="stylus" />
             <item index="1" class="java.lang.String" itemvalue="tmpl" />
-            <item index="2" class="java.lang.String" itemvalue="json" />
-            <item index="3" class="java.lang.String" itemvalue="SQL Script" />
+            <item index="2" class="java.lang.String" itemvalue="SQL Script" />
+            <item index="3" class="java.lang.String" itemvalue="json" />
           </list>
         </value>
       </option>
