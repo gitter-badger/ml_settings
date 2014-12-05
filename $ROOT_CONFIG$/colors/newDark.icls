@@ -2099,6 +2099,16 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="SCOPE_KEY_deploy">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_markup">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="SCOPE_KEY_node">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -2110,6 +2120,11 @@
       </value>
     </option>
     <option name="SCOPE_KEY_stylus">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_test">
       <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -2369,6 +2384,11 @@
         <option name="FOREGROUND" value="a44a2a" />
         <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

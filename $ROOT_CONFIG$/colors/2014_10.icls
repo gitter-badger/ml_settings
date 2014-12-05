@@ -130,7 +130,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3a2323" />
+        <option name="BACKGROUND" value="8e2434" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -183,15 +183,39 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="161616" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="75c4ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="5394ec" />
+        <option name="FOREGROUND" value="4280db" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="6effe4" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="6969" />
+        <option name="FOREGROUND" value="36d2b0" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="94928d" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -201,9 +225,27 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="c0ff25" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="73bb0f" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="fc5cff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="983498" />
+        <option name="FOREGROUND" value="e90099" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -219,9 +261,15 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff5a58" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff6b68" />
+        <option name="FOREGROUND" value="ff592f" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -235,6 +283,24 @@
       <value>
         <option name="FOREGROUND" value="7f00" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f6f6f6" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="fcff2e" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="cabf0c" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -721,7 +787,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2d6099" />
+        <option name="BACKGROUND" value="3673b8" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2136,6 +2202,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="SCOPE_KEY_deploy">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="SCOPE_KEY_evaluation">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -2206,6 +2277,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="SCOPE_KEY_markup">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="SCOPE_KEY_node">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -2242,6 +2318,11 @@
       </value>
     </option>
     <option name="SCOPE_KEY_svnPlugins">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_test">
       <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -2555,6 +2636,11 @@
         <option name="FOREGROUND" value="895130" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

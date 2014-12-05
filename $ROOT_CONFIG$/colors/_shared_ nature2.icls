@@ -1986,6 +1986,11 @@
             <option name="EFFECT_TYPE" value="0" />
           </value>
         </option>
+        <option name="SCOPE_KEY_deploy">
+          <value>
+            <option name="EFFECT_TYPE" value="0" />
+          </value>
+        </option>
         <option name="SCOPE_KEY_evaluation">
           <value>
             <option name="EFFECT_TYPE" value="0" />
@@ -2056,6 +2061,11 @@
             <option name="EFFECT_TYPE" value="0" />
           </value>
         </option>
+        <option name="SCOPE_KEY_markup">
+          <value>
+            <option name="EFFECT_TYPE" value="0" />
+          </value>
+        </option>
         <option name="SCOPE_KEY_node">
           <value>
             <option name="EFFECT_TYPE" value="0" />
@@ -2092,6 +2102,11 @@
           </value>
         </option>
         <option name="SCOPE_KEY_svnPlugins">
+          <value>
+            <option name="EFFECT_TYPE" value="0" />
+          </value>
+        </option>
+        <option name="SCOPE_KEY_test">
           <value>
             <option name="EFFECT_TYPE" value="0" />
           </value>
@@ -2407,6 +2422,11 @@
             <option name="FOREGROUND" value="895130" />
             <option name="FONT_TYPE" value="2" />
             <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+            <option name="EFFECT_TYPE" value="0" />
+          </value>
+        </option>
+        <option name="TS.TYPE_PARAMETER">
+          <value>
             <option name="EFFECT_TYPE" value="0" />
           </value>
         </option>
