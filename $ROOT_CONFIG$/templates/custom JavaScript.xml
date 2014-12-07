@@ -82,7 +82,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="clv" value="console.log(&quot;$TEXT$&quot;, $VAR$);" description="console var" toReformat="true" toShortenFQNames="true">
+  <template name="clv" value="console.log('$TEXT$', $VAR$);" description="console var" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -100,7 +100,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="clh" value="console.log(&quot;$TEXT$&quot;, {&#10;&#9;$KEY$: $VAR1$,&#10;&#9;$KEY2$: $VAR2$,&#10;&#9;$KEY3$: $VAR3$&#10;});" description="console hash" toReformat="true" toShortenFQNames="true">
+  <template name="clh" value="console.log('$TEXT$', {&#10;&#9;$KEY$: $VAR1$,&#10;&#9;$KEY2$: $VAR2$,&#10;&#9;$KEY3$: $VAR3$&#10;});" description="console hash" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <variable name="KEY" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR1" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
@@ -234,7 +234,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cld" value="console.debug(&quot;$TEXT$&quot;, $DATA$);" description="console.debug('text', data);" toReformat="true" toShortenFQNames="true">
+  <template name="cld" value="console.debug('$TEXT$', $DATA$);" description="console.debug('text', data);" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -271,7 +271,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="clw" value="console.warn(&quot;$TEXT$&quot;, $VAR$);" description="console.warn" toReformat="true" toShortenFQNames="true">
+  <template name="clw" value="console.warn('$TEXT$', $VAR$);" description="console.warn" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="TEXT" alwaysStopAt="true" />
     <context>
