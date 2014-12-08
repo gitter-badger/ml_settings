@@ -342,7 +342,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="slm" value="self.$METHOD$ = $FUNC$;" description="self.method" toReformat="true" toShortenFQNames="true">
+  <template name="slm" value="_self.$METHOD$ = $FUNC$;" description="self.method" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="FUNC" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -360,7 +360,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="slp" value="self.$prop$" description="self" toReformat="true" toShortenFQNames="true">
+  <template name="slp" value="_self.$prop$" description="self" toReformat="true" toShortenFQNames="true">
     <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -394,7 +394,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="sl" value="self = this" description="self" toReformat="true" toShortenFQNames="true">
+  <template name="sl" value="_self = this" description="self" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
